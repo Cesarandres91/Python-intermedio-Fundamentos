@@ -115,5 +115,3 @@ mostrar_detalles_personaje(nombre="Mario", salud=100, poder="Fuego")
 # salud: 100
 # poder: Fuego
 ```
-
-Este desarrollo cubre cómo usar funciones anidadas, closures, decoradores, funciones lambda y argumentos variables en el contexto de un videojuego, explicándolo de manera sencilla y con ejemplos prácticos.
