@@ -84,5 +84,3 @@ objetos_combinados = {**objetos1, **objetos2}
 # Imprimir el diccionario combinado
 print(objetos_combinados)  # Salida: {'pocion': 3, 'espada': 1, 'escudo': 1}
 ```
-
-Este desarrollo cubre cómo usar la comprensión de listas, diccionarios y conjuntos, así como realizar operaciones avanzadas con listas y diccionarios en el contexto de un videojuego, explicándolo de manera sencilla y con ejemplos prácticos.
