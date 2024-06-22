@@ -8,7 +8,7 @@ Los docstrings son cadenas de texto que se colocan al principio de una función,
 
 **Ejemplo:**
 
-\```python
+```python
 def sumar(a, b):
     """
     Suma dos números y devuelve el resultado.
@@ -25,7 +25,7 @@ def sumar(a, b):
 # Usar la función
 resultado = sumar(3, 4)
 print(resultado)  # Salida: 7
-\```
+```
 
 ### 9.2 ✅ Pruebas Unitarias con unittest
 
@@ -33,7 +33,7 @@ Las pruebas unitarias son pruebas automáticas que verifican si pequeñas partes
 
 **Ejemplo:**
 
-\```python
+```python
 import unittest
 
 def restar(a, b):
@@ -52,7 +52,7 @@ class TestFuncionesMatematicas(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-\```
+```
 
 ### 9.3 🧪 Uso de pytest
 
@@ -62,13 +62,13 @@ if __name__ == '__main__':
 
 Primero, instala `pytest` usando pip:
 
-\```bash
+```bash
 pip install pytest
-\```
+```
 
 Crea un archivo de prueba llamado `test_funciones.py`:
 
-\```python
+```python
 def sumar(a, b):
     return a + b
 
@@ -82,13 +82,13 @@ def test_sumar():
 def test_restar():
     assert restar(10, 5) == 5
     assert restar(-1, -1) == 0
-\```
+```
 
 Luego, ejecuta `pytest` en la terminal:
 
-\```bash
+```bash
 pytest
-\```
+```
 
 ### 9.4 📈 Cobertura de Pruebas
 
@@ -98,13 +98,13 @@ La cobertura de pruebas mide qué porcentaje de tu código está siendo probado.
 
 Primero, instala `coverage` usando pip:
 
-\```bash
+```bash
 pip install coverage
-\```
+```
 
 Usa `coverage` para ejecutar tus pruebas y generar un informe de cobertura:
 
-\```bash
+```bash
 # Ejecutar pruebas con cobertura
 coverage run -m pytest
 
@@ -113,6 +113,6 @@ coverage report
 
 # Opcional: Generar informe HTML
 coverage html
-\```
+```
 
 Este desarrollo cubre cómo usar docstrings para documentar tu código, cómo hacer pruebas unitarias con `unittest`, cómo usar `pytest` y cómo medir la cobertura de las pruebas en el contexto del análisis de datos, explicándolo de manera sencilla y con ejemplos prácticos.
