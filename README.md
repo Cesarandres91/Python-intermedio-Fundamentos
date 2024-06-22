@@ -1,4 +1,11 @@
 # 🐍 Fundamentos de Python Nivel Intermedio
+¡Hola!, soy César Torres y aquí encontrarás una colección de materiales y ejemplos de código que cubren los fundamentos intermedios de Python. 
+El objetivo de este repositorio es servir como un recurso de referencia y soporte para recordar conceptos importantes y fragmentos de código útiles mientras trabajas con Python.
+
+Este repositorio está organizado en varios temas clave, cada uno con su propio archivo detallado. Los temas incluyen Programación Orientada a Objetos, Manejo de Excepciones Avanzado, Funciones y Decoradores, Manipulación de Colecciones, Módulos y Paquetes, Manejo de Archivos Avanzado, Programación Concurrente, Expresiones Regulares, Documentación y Pruebas, y Bases de Datos.
+
+Cada sección está diseñada para ser fácil de entender, con explicaciones claras y ejemplos prácticos.
+
 
 ## 1. 👨‍💻 Programación Orientada a Objetos (POO)
    - [1.1 📦 Clases y Objetos](1%20-%20Programaci%C3%B3n%20Orientada%20a%20Objetos.md)
