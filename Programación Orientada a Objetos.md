@@ -169,5 +169,3 @@ luigi = Personaje("Luigi", 100)
 # Obtener el número de personajes creados
 print(Personaje.obtener_numero_de_personajes())  # Salida: 2
 ```
-
-Este desarrollo cubre los conceptos de clases y objetos, métodos, herencia, polimorfismo, encapsulamiento y métodos y atributos de clase en el contexto de un videojuego, explicando de manera sencilla y con ejemplos prácticos.
